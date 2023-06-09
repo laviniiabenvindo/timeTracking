@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+:root{
+    /* ## Colors */
+
+    /* ### Primary */
+
+    --Blue: hsl(246, 80%, 60%);
+
+    --Light-red-work: hsl(15, 100%, 70%);
+    --Soft-blue-play: hsl(195, 74%, 62%);
+    --Light-red-study: hsl(348, 100%, 68%);
+    --Lime-green-exercise: hsl(145, 58%, 55%);
+    --Violet-social: hsl(264, 64%, 52%);
+    --Soft-orange-self-care: hsl(43, 84%, 65%);
+
+    /* ### Neutral */
+
+    --Very-dark-blue: hsl(226, 43%, 10%);
+    --Dark-blue: hsl(235, 46%, 20%);
+    --Desaturated-blue: hsl(235, 45%, 61%);
+    --Pale-Blue: hsl(236, 100%, 87%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Rubik', sans-serif;
+    background-color: var(--Very-dark-blue);
+}
+.conteiner{
+    gap: 100px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img{
+    margin-left: 30px;
+    background-color: #FFF;
+    border-radius: 100px;
+    width: 90px;
+}
+.img img{
+    margin: 5px 0 0 5px;
+    width: 80px;
+}
+.pessoa{
+    display: flex;
+    height: 400px;
+    width: 250px;
+    border-radius: 15px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: var(--Blue);
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    gap: 40px;
+}
+.info p{
+    font-size: 20px;
+    color: #FFF;
+    font-weight: 200;
+    opacity: .50;
+}
+.info h1{
+    font-size: 50px;
+    color: #FFF;
+    font-weight: 300;
+}
+nav{
+    background-color: var(--Dark-blue);
+    color: var(--Desaturated-blue);
+    border-radius: 15px;
+}
+.nav{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 20px;
+}
+.itemNav{
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: left;
+    background-color: transparent;
+    color: var(--Desaturated-blue);
+}
+.itemNav:hover{
+    color: #FFF;
+}
+.item-conteinerBoxs .imgWork{
+    width: 70px;
+}
+.conteinerImg{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    border-radius: 15px;
+    background-color: var(--Light-red-work);
+}
+.play{
+    background-color: var(--Soft-blue-play);
+}
+.study{
+    background-color: var(--Light-red-study);
+}
+.exercise{
+    background-color: var(--Lime-green-exercise);
+}
+.social{
+    background-color: var(--Violet-social);
+}
+.selfCare{
+    background-color: var(--Soft-orange-self-care);
+}
+.work{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 300px;
+    border-radius: 15px;
+    background-color: var(--Dark-blue);
+}
+.icon{
+    display: flex;
+    color: #FFF;
+    font-size: 20px;
+    margin: 10px 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.work h2{
+    margin: 0 20px;
+    font-size: 50px;
+    color: #FFF;
+    font-weight: 100;
+}
+.work .last{
+    color: var(--Desaturated-blue);
+    margin: 0 20px 20px ;
+}
+.boxs{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.centerBox{
+    display: flex;
+    gap: 30px;
+}

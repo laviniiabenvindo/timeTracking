@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Time tracking dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="conteiner">
+    <nav>
+      <section class="pessoa">
+        <div class="img">
+          <img src="./images/image-jeremy.png" alt="">
+        </div>
+        <div class="info">
+          <p>Report for</p>
+          <h1>Jeremy <br> Robson</h1>
+        </div>
+      </section>
+      <div class="nav">
+        <button id="daily" class="itemNav">Daily</button>
+        <button id="weekly" class="itemNav">Weekly</button>
+        <button id="monthly" class="itemNav">Monthly</button>
+      </div>
+    </nav>
+    <!-- CAIXAS -->
+    <article class="boxs">
+      <section  class="centerBox">
+        <!-- WORK -->
+        <section class="conteinerBoxs">
+          <article class="item-conteinerBoxs">
+            <div class="conteinerImg">
+              <img class="imgWork" src="./images/icon-work.svg" alt="">
+              <div class="work">
+                <div class="icon">
+                  <p>Work</p>
+                  <img src="./images/icon-ellipsis.svg" alt="">
+                </div>
+                <h2 id="outputNum">5 hrs</h2>
+                <p class="last">Last Week - 7hrs</p>
+              </div>
+            </div>
+          </article>
+        </section>
+        <!-- PLAY -->
+        <section class="conteinerBoxs">
+          <article class="item-conteinerBoxs">
+            <div class="conteinerImg play">
+              <img class="imgWork" src="./images/icon-play.svg" alt="">
+              <div class="work">
+                <div class="icon">
+                  <p>Play</p>
+                  <img src="./images/icon-ellipsis.svg" alt="">
+                </div>
+                <h2 id="outputNum">1 hrs</h2>
+                <p class="last">Last Week - 2hrs</p>
+              </div>
+            </div>
+          </article>
+        </section>
+        <!-- STUDY -->
+        <section class="conteinerBoxs">
+          <article class="item-conteinerBoxs">
+            <div class="conteinerImg study">
+              <img class="imgWork" src="./images/icon-study.svg" alt="">
+              <div class="work">
+                <div class="icon">
+                  <p>Study</p>
+                  <img src="./images/icon-ellipsis.svg" alt="">
+                </div>
+                <h2 id="outputNum">0 hrs</h2>
+                <p class="last">Last Week - 1hrs</p>
+              </div>
+            </div>
+          </article>
+        </section>
+      </section>
+      <!-- DIVISÃO -->
+      <!-- EXERCISE -->
+      <section  class="centerBox">
+        <section class="conteinerBoxs">
+          <article class="item-conteinerBoxs">
+            <div class="conteinerImg exercise">
+              <img class="imgWork exerciseImg" src="./images/icon-exercise.svg" alt="">
+              <div class="work">
+                <div class="icon">
+                  <p>Exercise</p>
+                  <img src="./images/icon-ellipsis.svg" alt="">
+                </div>
+                <h2 id="outputNum">1 hrs</h2>
+                <p class="last">Last Week - 1hrs</p>
+              </div>
+            </div>
+          </article>
+        </section>
+        <!-- SOCIAL -->
+        <section class="conteinerBoxs">
+          <article class="item-conteinerBoxs">
+            <div class="conteinerImg social">
+              <img class="imgWork socialImg" src="./images/icon-social.svg" alt="">
+              <div class="work">
+                <div class="icon">
+                  <p>Social</p>
+                  <img src="./images/icon-ellipsis.svg" alt="">
+                </div>
+                <h2 id="outputNum">1 hrs</h2>
+                <p class="last">Last Week - 3hrs</p>
+              </div>
+            </div>
+          </article>
+        </section>
+        <!-- SELF CARE -->
+        <section class="conteinerBoxs">
+          <article class="item-conteinerBoxs">
+            <div class="conteinerImg selfCare">
+              <img class="imgWork" src="./images/icon-self-care.svg" alt="">
+              <div class="work">
+                <div class="icon">
+                  <p>Self Care</p>
+                  <img src="./images/icon-ellipsis.svg" alt="">
+                </div>
+                <h2 id="outputNum">0 hrs</h2>
+                <p class="last">Last Week - 1hrs</p>
+              </div>
+            </div>
+          </article>
+        </section>
+      </section>
+    </article>
+  </div>
+  <script src="./index.js"></script>
+</body>
+</html>
